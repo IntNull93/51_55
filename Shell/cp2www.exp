@@ -1,0 +1,12 @@
+#!/usr/bin/expect
+
+set timeout 10
+set file [lindex $argv 0]
+spawn scp $file 192.168.51.55:/var/www/html/
+
+expect "password:"
+send "123456\n"
+
+expect "100%"
+
+expect eof
