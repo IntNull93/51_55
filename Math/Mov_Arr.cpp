@@ -7,8 +7,8 @@ int main()
 {
 	int Arr[] = {-1,0,0,2,5,2,6,0,8,12};
 	vector<int> xx;
-	int len=sizeof(Arr);
-    cout << "The length of Arr is" << len << endl;
+	int len=sizeof(Arr)/sizeof(int);
+    cout << "The length of Arr is: " << len << endl;
 	for(int i=0;i<len;i++)
 		if(Arr[i]!=0)
 			xx.push_back(Arr[i]);
