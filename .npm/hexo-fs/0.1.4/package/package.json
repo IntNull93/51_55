@@ -1,0 +1,42 @@
+{
+  "name": "hexo-fs",
+  "version": "0.1.4",
+  "description": "File system module for Hexo.",
+  "main": "lib/fs",
+  "scripts": {
+    "jshint": "jshint --reporter=node_modules/jshint-stylish lib test",
+    "test": "mocha -R spec test/index.js",
+    "test-cov": "istanbul cover --print both _mocha -- -R spec test/index.js && istanbul check-coverage"
+  },
+  "directories": {
+    "lib": "./lib"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "repository": "hexojs/hexo-fs",
+  "homepage": "http://hexo.io/",
+  "keywords": [
+    "file",
+    "file system",
+    "fs",
+    "hexo"
+  ],
+  "author": "Tommy Chen <tommy351@gmail.com> (http://zespia.tw)",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^2.9.34",
+    "chokidar": "^1.0.1",
+    "escape-string-regexp": "^1.0.2",
+    "graceful-fs": "^4.1.2"
+  },
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "coveralls": "^2.11.2",
+    "istanbul": "^0.3.18",
+    "jshint": "^2.8.0",
+    "jshint-stylish": "^2.0.1",
+    "mocha": "^2.0.1",
+    "rimraf": "^2.2.8"
+  }
+}

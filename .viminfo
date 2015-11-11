@@ -1,0 +1,1387 @@
+# 这个 viminfo 文件是由 Vim 7.4 所产生。
+# 如果想要自行修改请特别小心！
+
+# 文件被写的时候 ‘encoding’ 的值
+*encoding=cp936
+
+
+# hlsearch on (H) or off (h):
+~h
+# 上个 Search 图案：
+~MSle0~/end
+
+# 最后替换的字符串
+$+ \2 (\1\/\2)
+
+# 命令行 历史记录 (从新到旧)：
+:q
+:q!
+:wq
+:touch 111
+:qw
+:wa
+:w
+:Wq
+:Q
+:vi
+:cd
+:11
+:set nu
+:set bg=dark
+:wq\
+:set nonu
+:220
+:LWq
+:27
+:!q
+
+# 查找字符串 历史记录 (从新到旧)：
+??end
+?/1
+?/os
+?/alarm_handler
+?/1000
+?/bc
+?/ToggleWindowsManager
+?/Togg
+?/SID
+?/helptags .
+?/11
+?/vim
+?/vi
+?/value
+?/{
+?/{<CR>
+?/zf%
+?/char
+?/root
+?/in
+
+# 表达式 历史记录 (从新到旧)：
+
+# 输入行 历史记录 (从新到旧)：
+
+# 输入行 历史记录 (从新到旧)：
+
+# 寄存器:
+"0	LINE	0
+	    cout << endl;
+""1	LINE	0
+	Line four
+"2	LINE	0
+	Line three
+"3	LINE	0
+	Line two
+"4	LINE	0
+	Line one
+"5	LINE	0
+	
+"6	LINE	0
+	
+"7	LINE	0
+	
+"8	LINE	0
+	ddddBRARY_PATH
+"9	LINE	0
+	    cout << absVal() << endl;
+"a@	CHAR	0
+	zf%n
+"-	CHAR	0
+	e
+
+# 文件标记:
+'0  9  43  ~/Vim/code/the_vim_way/3_concat.js
+'1  4  9  ~/Vim/code/the_vim_way/0_mechanics.txt
+'2  1  0  ~/Vim/code/essential.vim
+'3  1  0  ~/Vim/code/macros/incremental.txt
+'4  15  14  ~/test.c
+'5  6  0  ~/vim_package.tgz
+'6  3  23  /etc/resolv.conf
+'7  42  0  ~/[File List]
+'8  32  4  ~/C++_Primer/5_chapter/odd_double.cpp
+'9  22  24  ~/C++_Primer/5_chapter/odd_double.cpp
+
+# 跳转列表 (从新到旧):
+-'  9  43  ~/Vim/code/the_vim_way/3_concat.js
+-'  1  0  ~/Vim/code/the_vim_way/3_concat.js
+-'  4  9  ~/Vim/code/the_vim_way/0_mechanics.txt
+-'  2  7  ~/Vim/code/the_vim_way/0_mechanics.txt
+-'  3  9  ~/Vim/code/the_vim_way/0_mechanics.txt
+-'  5  0  ~/Vim/code/the_vim_way/0_mechanics.txt
+-'  1  7  ~/Vim/code/the_vim_way/0_mechanics.txt
+-'  1  0  ~/Vim/code/essential.vim
+-'  1  0  ~/Vim/code/macros/incremental.txt
+-'  15  14  ~/test.c
+-'  16  0  ~/test.c
+-'  6  0  ~/vim_package.tgz
+-'  11  51  ~/Math/Mov_Arr.cpp
+-'  12  3  ~/Math/Mov_Arr.cpp
+-'  26  15  ~/Math/Mov_Arr.cpp
+-'  1  0  ~/Math/Mov_Arr.cpp
+-'  1  0  ~/[File List]
+-'  3  23  /etc/resolv.conf
+-'  2  4  /etc/resolv.conf
+-'  1  0  /etc/resolv.conf
+-'  42  0  ~/[File List]
+-'  27  0  ~/[File List]
+-'  25  0  ~/[File List]
+-'  44  0  ~/[File List]
+-'  45  0  ~/[File List]
+-'  32  4  ~/C++_Primer/5_chapter/odd_double.cpp
+-'  1  0  ~/C++_Primer/5_chapter/odd_double.cpp
+-'  22  24  ~/C++_Primer/5_chapter/odd_double.cpp
+-'  28  17  ~/C++_Primer/5_chapter/odd_double.cpp
+-'  30  29  ~/C++_Primer/5_chapter/odd_double.cpp
+-'  34  12  ~/C++_Primer/5_chapter/odd_double.cpp
+-'  27  61  ~/C++_Primer/5_chapter/odd_double.cpp
+-'  15  0  ~/C++_Primer/5_chapter/odd_double.cpp
+-'  36  0  ~/C++_Primer/5_chapter/odd_double.cpp
+-'  19  4  ~/C++_Primer/5_chapter/string_pointer.cpp
+-'  1  0  ~/C++_Primer/5_chapter/string_pointer.cpp
+-'  35  38  ~/C++_Primer/5_chapter/string_pointer.cpp
+-'  45  12  ~/C++_Primer/5_chapter/string_pointer.cpp
+-'  40  24  ~/C++_Primer/5_chapter/string_pointer.cpp
+-'  39  17  ~/C++_Primer/5_chapter/string_pointer.cpp
+-'  34  24  ~/C++_Primer/5_chapter/string_pointer.cpp
+-'  33  44  ~/C++_Primer/5_chapter/string_pointer.cpp
+-'  30  14  ~/C++_Primer/5_chapter/string_pointer.cpp
+-'  15  0  ~/C++_Primer/5_chapter/string_pointer.cpp
+-'  48  0  ~/C++_Primer/5_chapter/string_pointer.cpp
+-'  1  41  ~/Lib_Test/Dynamic_Lib/.bash_profile
+-'  17  0  ~/Lib_Test/Dynamic_Lib/test.c
+-'  15  0  ~/Lib_Test/Dynamic_Lib/test.c
+-'  23  0  ~/Lib_Test/Dynamic_Lib/test.c
+-'  16  0  ~/Lib_Test/Dynamic_Lib/test_a.c
+-'  19  35  ~/Lib_Test/Dynamic_Lib/test_a.c
+-'  15  0  ~/Lib_Test/Dynamic_Lib/test_a.c
+-'  21  0  ~/Lib_Test/Dynamic_Lib/test_a.c
+-'  17  0  ~/Lib_Test/Dynamic_Lib/so_test.h
+-'  15  16  ~/Lib_Test/Dynamic_Lib/so_test.h
+-'  18  0  ~/Lib_Test/Dynamic_Lib/so_test.h
+-'  16  0  ~/Lib_Test/M_Static_Lib/main.c
+-'  15  0  ~/Lib_Test/M_Static_Lib/main.c
+-'  24  0  ~/Lib_Test/M_Static_Lib/main.c
+-'  19  47  ~/Lib_Test/M_Static_Lib/test_3.c
+-'  17  10  ~/Lib_Test/M_Static_Lib/test_3.c
+-'  1  0  ~/Lib_Test/M_Static_Lib/test_3.c
+-'  19  46  ~/Lib_Test/M_Static_Lib/test_2.c
+-'  1  0  ~/Lib_Test/M_Static_Lib/test_2.c
+-'  19  46  ~/Lib_Test/M_Static_Lib/test_1.c
+-'  15  0  ~/Lib_Test/M_Static_Lib/test_1.c
+-'  21  0  ~/Lib_Test/M_Static_Lib/test_1.c
+-'  17  0  ~/Lib_Test/M_Static_Lib/test.h
+-'  15  16  ~/Lib_Test/M_Static_Lib/test.h
+-'  20  0  ~/Lib_Test/M_Static_Lib/test.h
+-'  19  0  ~/Lib_Test/main.c
+-'  15  0  ~/Lib_Test/main.c
+-'  22  0  ~/Lib_Test/main.c
+-'  18  3  ~/Lib_Test/test.c
+-'  15  0  ~/Lib_Test/test.c
+-'  1  0  ~/Vim/code/essential.vim
+-'  1  0  ~/Vim/code/macros/incremental.txt
+-'  15  14  ~/test.c
+-'  16  0  ~/test.c
+-'  6  0  ~/vim_package.tgz
+-'  11  51  ~/Math/Mov_Arr.cpp
+-'  12  3  ~/Math/Mov_Arr.cpp
+-'  26  15  ~/Math/Mov_Arr.cpp
+-'  1  0  ~/Math/Mov_Arr.cpp
+-'  1  0  ~/[File List]
+-'  4  9  ~/Vim/code/the_vim_way/0_mechanics.txt
+-'  2  7  ~/Vim/code/the_vim_way/0_mechanics.txt
+-'  3  9  ~/Vim/code/the_vim_way/0_mechanics.txt
+-'  5  0  ~/Vim/code/the_vim_way/0_mechanics.txt
+-'  1  7  ~/Vim/code/the_vim_way/0_mechanics.txt
+-'  1  0  ~/Vim/code/essential.vim
+-'  1  0  ~/Vim/code/macros/incremental.txt
+-'  15  14  ~/test.c
+-'  16  0  ~/test.c
+-'  6  0  ~/vim_package.tgz
+-'  11  51  ~/Math/Mov_Arr.cpp
+-'  12  3  ~/Math/Mov_Arr.cpp
+-'  26  15  ~/Math/Mov_Arr.cpp
+-'  1  0  ~/Math/Mov_Arr.cpp
+
+# 文件内的标记历史记录 (从新到旧):
+
+> ~/Vim/code/the_vim_way/3_concat.js
+	"	9	43
+
+> ~/Vim/code/the_vim_way/0_mechanics.txt
+	"	4	9
+	^	4	10
+	.	4	9
+	+	4	0
+	+	1	0
+	+	2	0
+	+	1	0
+	+	3	0
+	+	4	0
+	+	1	8
+	+	2	8
+	+	3	10
+	+	1	8
+	+	2	8
+	+	3	10
+	+	4	9
+	+	4	0
+	+	1	8
+	+	2	8
+	+	3	10
+	+	4	9
+
+> ~/Vim/code/essential.vim
+	"	1	0
+
+> ~/Vim/code/macros/incremental.txt
+	"	1	0
+
+> ~/test.c
+	"	15	14
+	^	15	15
+	.	15	14
+	+	15	14
+
+> ~/[File List]
+	"	24	14
+	.	4	0
+	+	69	0
+	+	69	0
+	+	159	0
+	+	137	0
+	+	115	0
+	+	93	0
+	+	71	0
+	+	47	0
+	+	25	0
+	+	1	0
+	+	1	0
+	+	4	0
+
+> ~/Math/Mov_Arr.cpp
+	"	11	51
+	^	11	52
+	.	11	0
+	+	11	0
+
+> ~/vim_package.tgz
+	"	6	0
+	.	5	0
+	+	5	0
+
+> /etc/resolv.conf
+	"	3	23
+	^	3	24
+	.	3	23
+	+	4	10
+	+	4	0
+	+	4	0
+	+	4	23
+	+	4	0
+	+	3	23
+
+> ~/Mov_Arr.cpp
+	"	14	0
+	^	11	50
+	.	11	33
+	+	18	43
+	+	18	43
+	+	19	0
+	+	22	0
+	+	17	0
+	+	18	35
+	+	11	33
+
+> ~/C++_Primer/5_chapter/odd_double.cpp
+	"	32	4
+	^	26	4
+	.	32	0
+	+	15	19
+	+	16	17
+	+	21	1
+	+	22	27
+	+	27	74
+	+	28	52
+	+	30	50
+	+	31	30
+	+	34	12
+	+	30	29
+	+	24	0
+	+	26	0
+	+	22	24
+	+	26	4
+	+	32	0
+	+	34	0
+	+	32	0
+
+> ~/C++_Primer/5_chapter/string_pointer.cpp
+	"	19	4
+	^	35	39
+	.	35	38
+	+	15	19
+	+	16	17
+	+	17	17
+	+	22	1
+	+	23	27
+	+	26	41
+	+	27	22
+	+	31	5
+	+	46	0
+	+	30	29
+	+	33	52
+	+	34	8
+	+	27	8
+	+	34	31
+	+	37	0
+	+	35	50
+	+	36	14
+	+	40	31
+	+	43	0
+	+	42	14
+	+	45	12
+	+	19	2
+	+	35	38
+
+> ~/Lib_Test/Dynamic_Lib/.bash_profile
+	"	1	41
+	^	1	42
+	.	1	41
+	+	1	41
+
+> ~/Lib_Test/Dynamic_Lib/test.c
+	"	17	0
+	^	21	0
+	.	18	0
+	+	15	20
+	+	21	0
+	+	22	0
+	+	21	0
+	+	18	0
+
+> ~/Lib_Test/Dynamic_Lib/test_a.c
+	"	16	0
+	^	16	0
+	.	15	20
+	+	15	20
+	+	20	0
+	+	21	0
+	+	19	47
+	+	15	20
+
+> ~/Lib_Test/Dynamic_Lib/so_test.h
+	"	17	0
+	^	17	0
+	.	16	0
+	+	15	18
+	+	16	0
+
+> ~/Lib_Test/M_Static_Lib/main.c
+	"	16	0
+	^	16	0
+	.	15	17
+	+	15	17
+	+	23	0
+	+	24	0
+	+	19	0
+	+	15	17
+
+> ~/Lib_Test/M_Static_Lib/test_3.c
+	"	19	47
+	^	19	48
+	.	19	47
+	+	17	10
+	+	19	47
+
+> ~/Lib_Test/M_Static_Lib/test_2.c
+	"	19	46
+	^	19	47
+	.	19	46
+	+	17	10
+	+	19	46
+
+> ~/Lib_Test/M_Static_Lib/test_1.c
+	"	19	46
+	^	19	47
+	.	19	46
+	+	15	17
+	+	20	0
+	+	21	0
+	+	19	4
+	+	16	0
+	+	18	1
+	+	19	46
+
+> ~/Lib_Test/M_Static_Lib/test.h
+	"	17	0
+	^	17	0
+	.	17	0
+	+	15	18
+	+	19	13
+	+	17	0
+
+> ~/Lib_Test/main.c
+	"	19	0
+	^	19	0
+	.	19	0
+	+	15	17
+	+	21	0
+	+	22	0
+	+	18	4
+	+	20	4
+	+	19	0
+
+> ~/Lib_Test/test.c
+	"	18	3
+	^	18	4
+	.	18	3
+	+	15	17
+	+	19	0
+	+	20	0
+	+	18	3
+
+> ~/Lib_Test/test.h
+	"	17	0
+	^	17	0
+	.	16	0
+	+	15	18
+	+	16	0
+
+> /lib/modules/3.13.0-32-generic/modules.builtin.bin
+	"	1	0
+
+> /lib/modules/3.13.0-32-generic/modules.builtin
+	"	49	0
+
+> ~/C++_Primer/chapter_3_1.cpp
+	"	1	0
+	^	21	11
+	.	21	10
+	+	1	19
+	+	8	1
+	+	12	53
+	+	15	19
+	+	15	19
+	+	29	0
+	+	18	0
+	+	16	53
+	+	17	13
+	+	19	18
+	+	20	1
+	+	22	0
+	+	20	41
+	+	21	17
+	+	25	34
+	+	26	25
+	+	28	9
+	+	5	16
+	+	25	10
+	+	21	10
+
+> ~/C++_Primer/111.cpp
+	"	1	0
+	^	7	25
+	.	7	24
+	+	1	19
+	+	6	1
+	+	7	24
+	m	1	1
+	w	1	9
+
+> ~/.git/logs/refs/heads/master
+	"	1	0
+
+> ~/C++_Primer/16_chapter/template_ostream.cpp
+	"	36	0
+	^	36	0
+	.	34	10
+	+	15	19
+	+	16	17
+	+	17	18
+	+	18	18
+	+	22	34
+	+	23	26
+	+	24	1
+	+	26	12
+	+	27	1
+	+	23	16
+	+	30	1
+	+	33	45
+	+	34	30
+	+	35	35
+	+	38	26
+	+	39	0
+	+	40	0
+	+	41	0
+	+	40	0
+	+	39	18
+	+	40	18
+	+	41	31
+	+	51	4
+	+	43	0
+	+	50	0
+	+	43	13
+	+	50	21
+	+	44	27
+	+	45	0
+	+	46	0
+	+	47	0
+	+	44	19
+	+	45	21
+	+	46	21
+	+	47	34
+	+	49	0
+	+	51	23
+	+	52	0
+	+	53	0
+	+	54	0
+	+	51	15
+	+	52	17
+	+	53	17
+	+	54	30
+	+	56	50
+	+	57	30
+	+	59	12
+	+	34	10
+
+> ~/C++_Primer/16_chapter/template_absolute.cpp
+	"	27	4
+	^	11	2
+	.	10	24
+	+	15	19
+	+	19	21
+	+	20	15
+	+	21	1
+	+	22	31
+	+	26	1
+	+	30	28
+	+	31	0
+	+	32	0
+	+	35	0
+	+	30	20
+	+	31	21
+	+	32	32
+	+	34	12
+	+	6	41
+	+	10	24
+
+> ~/Open_Source/WebBench/README.md
+	"	16	8
+	^	16	14
+	.	16	0
+	+	16	0
+
+> ~/Open_Source/WebBench/webbench.c
+	"	77	12
+
+> ~/Open_Source/Web_Bench/Makefile
+	"	34	1
+
+> ~/Open_Source/Web_Bench/webbench.c
+	"	94	1
+	^	511	2
+	.	511	1
+	+	15	0
+	+	6	39
+	+	10	20
+	+	41	13
+	+	46	14
+	+	47	61
+	+	48	39
+	+	61	15
+	+	86	17
+	+	141	180
+	+	175	29
+	+	180	35
+	+	252	62
+	+	254	56
+	+	262	76
+	+	269	105
+	+	302	192
+	+	307	200
+	+	314	216
+	+	321	229
+	+	328	279
+	+	329	264
+	+	336	121
+	+	342	155
+	+	343	174
+	+	357	203
+	+	363	246
+	+	370	307
+	+	398	536
+	+	419	564
+	+	433	629
+	+	445	686
+	+	450	728
+	+	466	853
+	+	511	1
+
+> ~/passwd
+	"	1	0
+
+> ~/Mix_Num.cpp
+	"	1	0
+	.	41	0
+	+	41	0
+	+	6	31
+	+	6	31
+	+	10	24
+	+	40	0
+	+	41	0
+	+	41	0
+	+	22	0
+	+	41	0
+
+> ~/MI
+	"	1	0
+
+> ~/test.cpp
+	"	1	0
+	^	28	2
+	.	28	1
+	+	30	24
+	+	37	22
+	+	7	24
+	+	36	1
+	+	37	23
+	+	30	0
+	+	21	0
+	+	16	25
+	+	37	20
+	+	37	4
+	+	37	20
+	+	21	68
+	+	37	20
+	+	20	0
+	+	21	0
+	+	22	0
+	+	23	0
+	+	24	58
+	+	16	29
+	+	37	23
+	+	24	24
+	+	23	25
+	+	29	1
+	+	28	1
+
+> ~/Perfect.cpp
+	"	1	0
+	^	8	13
+	.	8	12
+	+	8	12
+
+> ~/shadow_log.log
+	"	115	0
+
+> ~/Stack_Death.c
+	"	25	20
+	^	25	21
+	.	25	20
+	+	33	0
+	+	6	46
+	+	10	24
+	+	31	28
+	+	19	0
+	+	14	18
+	+	17	0
+	+	18	0
+	+	21	16
+	+	22	16
+	+	23	19
+	+	24	19
+	+	25	20
+	+	21	16
+	+	22	16
+	+	23	19
+	+	24	19
+	+	25	20
+
+> ~/Macro/Test.cpp
+	"	25	0
+	^	21	0
+	.	20	13
+	+	15	0
+	+	6	30
+	+	10	27
+	+	15	19
+	+	23	1
+	+	25	10
+	+	16	26
+	+	27	4
+	+	26	0
+	+	27	0
+	+	26	21
+	+	19	0
+	+	24	16
+	+	20	13
+
+> ~/Macro/Macro_4_Compile.h
+	"	22	0
+	^	22	0
+	.	21	0
+	+	23	0
+	+	6	43
+	+	10	39
+	+	17	30
+	+	18	26
+	+	21	0
+
+> ~/fun.c
+	"	1	0
+
+> ~/12.c
+	"	21	0
+	^	22	13
+	.	22	12
+	+	15	18
+	+	21	64
+	+	15	18
+	+	17	11
+	+	19	0
+	+	24	0
+	+	21	64
+	+	20	0
+	+	22	12
+
+> ~/File_Destroy.c
+	"	131	12
+	^	97	1
+	.	147	0
+	+	15	2
+	+	86	25
+	+	89	16
+	+	92	29
+	+	107	52
+	+	115	60
+	+	119	45
+	+	123	61
+	+	126	72
+	+	133	80
+	+	139	70
+	+	143	81
+	+	147	142
+	+	151	128
+	+	160	21
+	+	177	29
+	+	181	30
+	+	188	42
+	+	191	31
+	+	193	39
+	+	201	73
+	+	209	51
+	+	215	0
+	+	97	1
+	+	98	0
+	+	216	0
+	+	215	1
+	+	193	0
+	+	147	0
+
+> /home/svn_test/project_1/conf/svnserve.conf
+	"	19	0
+	^	19	0
+	.	19	0
+	+	18	0
+	+	19	0
+
+> /home/svn_test/project_1/README.txt
+	"	1	0
+
+> /home/svn_test/project_1/conf/passwd
+	"	8	0
+	.	9	0
+	+	8	22
+	+	9	0
+
+> /home/svn_test/project_1/conf/authz
+	"	24	0
+	^	24	0
+	.	24	0
+	+	25	3
+	+	25	8
+	+	25	0
+	+	23	40
+	+	24	0
+
+> /var/www/html/kernel-parameters.txt
+	"	1	26
+
+> /var/www/html/Mix_Num.cpp
+	"	34	4
+
+> /var/www/shadow_setup/setup.sh
+	"	155	0
+	.	155	0
+	+	155	0
+
+> /var/www/shadow_setup/shadow/etc/shadow.ini
+	"	20	0
+
+> /var/www/shadow_setup/shadow/etc/model.ini
+	"	1	0
+
+> /var/www/shadow_setup/shadow/etc/product.dat
+	"	57	6
+	^	57	7
+	.	29	23
+	+	17	23
+	+	29	23
+
+> /var/www/shadow_setup/etc/shadow.ini
+	"	34	0
+
+> ~/C++_Primer/4_chapter/111.cpp
+	"	26	3
+	^	24	13
+	.	26	0
+	+	15	19
+	+	15	19
+	+	20	1
+	+	21	24
+	+	22	21
+	+	23	12
+	+	23	20
+	+	27	4
+	+	27	19
+	+	23	0
+	+	27	0
+	+	23	23
+	+	26	4
+	+	25	23
+	+	26	0
+	+	26	12
+	+	23	23
+	+	24	12
+	+	26	0
+
+> ~/C++_Primer/4_chapter/vec2vec.cpp
+	"	27	29
+	^	27	30
+	.	27	29
+	+	15	0
+	+	6	55
+	+	10	24
+	+	15	19
+	+	16	17
+	+	21	1
+	+	22	28
+	+	23	22
+	+	25	76
+	+	26	31
+	+	28	0
+	+	25	76
+	+	28	0
+	+	27	29
+
+> ~/find_per.cpp
+	"	15	1
+	^	15	2
+	.	15	1
+	+	74	0
+	+	21	35
+	+	68	208
+	+	15	1
+
+> ~/getopt_test.c
+	"	31	31
+	^	31	32
+	.	31	31
+	+	72	0
+	+	43	42
+	+	47	27
+	+	71	12
+	+	52	0
+	+	53	0
+	+	54	4
+	+	56	0
+	+	57	4
+	+	58	4
+	+	59	4
+	+	60	4
+	+	61	8
+	+	62	8
+	+	63	12
+	+	64	12
+	+	65	12
+	+	66	11
+	+	67	8
+	+	68	8
+	+	69	4
+	+	70	4
+	+	71	0
+	+	72	0
+	+	52	7
+	+	15	0
+	+	6	39
+	+	10	24
+	+	37	0
+	+	21	40
+	+	24	19
+	+	27	19
+	+	25	39
+	+	28	37
+	+	34	42
+	+	36	24
+	+	38	0
+	+	21	40
+	+	28	47
+	+	30	21
+	+	31	16
+	+	31	31
+
+> ~/.vimrc
+	"	1	0
+	^	28	0
+	.	150	0
+	+	150	59
+	+	150	0
+	+	150	0
+	+	150	0
+	+	150	30
+	+	150	90
+	+	150	30
+	+	150	0
+	+	150	0
+	+	150	3
+	+	150	0
+	+	150	0
+	+	150	4
+	+	150	0
+	+	150	0
+	+	150	0
+	+	28	0
+	+	150	0
+
+> ~/C++_Primer/3_chapter/vector_calc_iter.cpp
+	"	1	0
+	^	45	81
+	.	45	80
+	+	15	0
+	+	10	27
+	+	6	48
+	+	15	19
+	+	16	17
+	+	17	17
+	+	22	1
+	+	22	1
+	+	23	21
+	+	26	52
+	+	27	20
+	+	28	29
+	+	30	25
+	+	30	25
+	+	30	25
+	+	31	39
+	+	32	17
+	+	34	75
+	+	36	34
+	+	37	81
+	+	37	82
+	+	42	0
+	+	38	42
+	+	40	25
+	+	42	5
+	+	44	26
+	+	45	99
+	+	46	12
+	+	45	80
+
+> ~/C++_Primer/3_chapter/[File List]
+	"	13	0
+	.	4	0
+	+	16	0
+	+	16	0
+	+	18	0
+	+	4	0
+	t	6	0
+
+> ~/C++_Primer/3_chapter/vector_calc2.cpp
+	"	1	0
+	^	30	81
+	.	30	81
+	+	20	30
+	+	21	33
+	+	22	66
+	+	27	0
+	+	23	43
+	+	25	16
+	+	26	15
+	+	28	0
+	+	29	16
+	+	30	81
+
+> ~/C++_Primer/3_chapter/vector_low2up.cpp
+	"	3	1
+	^	10	14
+	.	10	13
+	+	1	19
+	+	2	17
+	+	3	17
+	+	4	17
+	+	9	1
+	+	9	1
+	+	10	18
+	+	13	46
+	+	14	18
+	+	15	22
+	+	17	21
+	+	17	22
+	+	20	0
+	+	18	31
+	+	19	11
+	+	22	56
+	+	24	62
+	+	31	0
+	+	25	68
+	+	26	31
+	+	27	47
+	+	28	26
+	+	29	19
+	+	30	15
+	+	32	10
+	+	10	13
+
+> ~/C++_Primer/3_chapter/-MiniBufExplorer-
+	"	1	0
+	.	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+
+> ~/111.cpp
+	"	1	0
+	.	14	0
+	+	1	19
+	+	10	1
+	+	14	9
+	+	12	38
+	+	5	21
+	+	12	53
+	+	12	59
+	+	3	18
+	+	4	16
+	+	12	54
+	+	7	0
+	+	6	125
+	+	8	0
+	+	11	4
+	+	13	4
+	+	11	5
+	+	9	9
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	14	0
+	+	14	0
+	q	7	0
+	w	1	0
+
+> ~/__Tag_List__
+	"	8	0
+	.	10	0
+	+	64	0
+	+	55	0
+	+	46	0
+	+	37	0
+	+	28	0
+	+	19	0
+	+	10	0
+
+> ~/UC2MAC.c
+	"	78	0
+	^	2	18
+	.	78	0
+	+	1	18
+	+	2	17
+	+	122	1
+	+	4	0
+	+	2	17
+	+	77	0
+	+	78	0
+
+> ~/endian.c
+	"	1	0
+
+> ~/-MiniBufExplorer-
+	"	1	0
+	.	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+
+> ~/.vim/plugin/winmanager.vim
+	"	1065	14
+	^	1065	15
+	.	1065	14
+	+	1066	13
+	+	1065	14
+
+> ~/.vim/doc/[NERDTree]
+	"	1	0
+
+> ~/.vim/doc/__Tag_List__
+	"	3	0
+	.	10	0
+	+	10	0
+
+> ~/[NERDTree]
+	"	1	0
+	^	1	0
+	.	1	0
+	+	1	0
+
+> ~/select.sh
+	"	2	0
+	^	21	0
+	.	20	5
+	+	3	27
+	+	6	5
+	+	7	23
+	+	9	5
+	+	10	22
+	+	12	5
+	+	13	12
+	+	15	3
+	+	14	6
+	+	17	14
+	+	19	5
+	+	20	5
+
+> ~/NERD_tree_1
+	"	14	1
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~/NERD_tree_2
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/NERD_tree_3
+	"	1	2
+	.	1	0
+	+	1	0
+	+	1	0
+
+> ~/NERD_tree_4
+	"	40	0
+	.	1	0
+	+	1	0
+	+	1	0
+
+> ~/NERD_tree_5
+	"	19	0
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~/NERD_tree_6
+	"	83	0
+	.	1	0
+	+	1	0
+	+	1	0
+
+> ~/NERD_tree_7
+	"	1	0
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~/NERD_tree_8
+	"	13	0
+	.	1	0
+	+	1	0
+
+> ~/.vim/doc/NERD_tree.txt
+	"	1	0
+
+> /home/luokj/.vimrc
+	"	149	0
+	^	68	9
+	.	68	8
+	+	67	0
+	+	60	0
+	+	61	0
+	+	68	26
+	+	69	8
+	+	68	8
+
+> /home/luokj/hehe.cpp
+	"	1	2
+	^	1	3
+	.	1	2
+	+	1	19
+	+	3	3
+	+	1	18
+	+	1	2
+
+> /home/luokj/.bashrc
+	"	18	0
+
+> /etc/vim/vimrc
+	"	45	0
+
+> ~/C++_Primer/3_chapter/vector_calc.cpp
+	"	27	69
+	^	27	70
+	.	27	69
+	+	1	19
+	+	2	17
+	+	7	1
+	+	8	18
+	+	11	50
+	+	12	19
+	+	13	23
+	+	15	21
+	+	15	22
+	+	18	0
+	+	16	32
+	+	17	11
+	+	19	72
+	+	20	0
+	+	19	71
+	+	21	63
+	+	21	64
+	+	24	0
+	+	22	40
+	+	23	14
+	+	26	26
+	+	27	104
+	+	27	69
+
+> ~/C++_Primer/3_chapter/string_drop_punct.cpp
+	"	32	0
+	^	31	10
+	.	31	9
+	+	1	19
+	+	2	17
+	+	3	17
+	+	8	1
+	+	11	0
+	+	10	0
+	+	13	36
+	+	14	16
+	+	16	59
+	+	17	2
+	+	23	0
+	+	18	16
+	+	19	17
+	+	23	2
+	+	25	14
+	+	26	50
+	+	27	6
+	+	30	0
+	+	28	60
+	+	29	11
+	+	31	9
+
+> ~/C++_Primer/3_chapter/string_link.cpp
+	"	19	0
+	^	19	0
+	.	18	0
+	+	1	19
+	+	2	17
+	+	7	1
+	+	8	23
+	+	10	50
+	+	11	18
+	+	14	96
+	+	16	9
+	+	18	0
+
+> ~/C++_Primer/3_chapter/string_equal.cpp
+	"	15	47
+	^	15	48
+	.	15	47
+	+	1	19
+	+	6	1
+	+	7	40
+	+	12	15
+	+	13	34
+	+	14	19
+	+	15	42
+	+	15	74
+	+	17	1
+	+	15	42
+	+	15	42
+	+	17	19
+	+	17	58
+	+	15	27
+	+	17	27
+	+	17	43
+	+	15	31
+	+	17	31
+	+	15	47
+	+	17	47
+	+	15	47
+
+> /var/www/html/main.c
+	"	31	0
+
+> ~/C++_Primer/string_punct.cpp
+	"	6	0
+	^	6	0
+	.	6	0
+	+	1	19
+	+	6	2
+	+	7	29
+	+	10	62
+	+	11	23
+	+	14	6
+	+	2	0
+	+	6	0
+
+> ~/C++_Primer/string_getline.cpp
+	"	10	9
+	^	10	10
+	.	10	9
+	+	1	19
+	+	6	1
+	+	8	25
+	+	10	9
+
+> ~/const_quote.c
+	"	12	0
+	^	12	0
+	.	12	0
+	+	1	19
+	+	6	1
+	+	17	18
+	+	12	27
+	+	13	1
+	+	18	22
+	+	13	0
+	+	12	1
+	+	14	14
+	+	13	1
+	+	14	1
+	+	15	75
+	+	12	0
+
+> ~/select.c
+	"	3	0
+	^	3	0
+	.	2	0
+	+	2	0
