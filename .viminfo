@@ -8,7 +8,7 @@
 # hlsearch on (H) or off (h):
 ~h
 # 上个 Search 图案：
-~MSle0~/end
+~MSle0~/pthread_create
 
 # 最后替换的字符串
 $+ \2 (\1\/\2)
@@ -36,6 +36,8 @@ $+ \2 (\1\/\2)
 :!q
 
 # 查找字符串 历史记录 (从新到旧)：
+?/pthread_create
+?/cmd proxy protocol dispose
 ??end
 ?/1
 ?/os
@@ -64,44 +66,57 @@ $+ \2 (\1\/\2)
 # 输入行 历史记录 (从新到旧)：
 
 # 寄存器:
-"0	LINE	0
-	    cout << endl;
-""1	LINE	0
-	Line four
+"0	CHAR	0
+	t
+""1	CHAR	0
+	*/
+	xtoern int pthread_equal (pthread_t __thread1, pthread_t __thread2)
+	  __THROW __attribute__ ((__const__));
 "2	LINE	0
-	Line three
+	Line four
 "3	LINE	0
-	Line two
+	Line three
 "4	LINE	0
-	Line one
+	Line two
 "5	LINE	0
-	
+	Line one
 "6	LINE	0
 	
 "7	LINE	0
 	
 "8	LINE	0
-	ddddBRARY_PATH
+	
 "9	LINE	0
-	    cout << absVal() << endl;
+	ddddBRARY_PATH
 "a@	CHAR	0
 	zf%n
 "-	CHAR	0
-	e
+	o
 
 # 文件标记:
-'0  9  43  ~/Vim/code/the_vim_way/3_concat.js
-'1  4  9  ~/Vim/code/the_vim_way/0_mechanics.txt
-'2  1  0  ~/Vim/code/essential.vim
-'3  1  0  ~/Vim/code/macros/incremental.txt
-'4  15  14  ~/test.c
-'5  6  0  ~/vim_package.tgz
-'6  3  23  /etc/resolv.conf
-'7  42  0  ~/[File List]
-'8  32  4  ~/C++_Primer/5_chapter/odd_double.cpp
-'9  22  24  ~/C++_Primer/5_chapter/odd_double.cpp
+'0  1  0  ~/Open_Source/nginx/.hg_archival.txt
+'1  289  0  ~/Open_Source/nginx/.hgtags
+'2  244  11  /usr/include/pthread.h
+'3  9  43  ~/Vim/code/the_vim_way/3_concat.js
+'4  4  9  ~/Vim/code/the_vim_way/0_mechanics.txt
+'5  1  0  ~/Vim/code/essential.vim
+'6  1  0  ~/Vim/code/macros/incremental.txt
+'7  15  14  ~/test.c
+'8  6  0  ~/vim_package.tgz
+'9  3  23  /etc/resolv.conf
 
 # 跳转列表 (从新到旧):
+-'  1  0  ~/Open_Source/nginx/.hg_archival.txt
+-'  289  0  ~/Open_Source/nginx/.hgtags
+-'  1  0  ~/Open_Source/nginx/.hgtags
+-'  244  11  /usr/include/pthread.h
+-'  419  38  /usr/include/pthread.h
+-'  423  44  /usr/include/pthread.h
+-'  289  0  /usr/include/pthread.h
+-'  288  36  /usr/include/pthread.h
+-'  291  0  /usr/include/pthread.h
+-'  258  0  /usr/include/pthread.h
+-'  1  0  /usr/include/pthread.h
 -'  9  43  ~/Vim/code/the_vim_way/3_concat.js
 -'  1  0  ~/Vim/code/the_vim_way/3_concat.js
 -'  4  9  ~/Vim/code/the_vim_way/0_mechanics.txt
@@ -181,28 +196,30 @@ $+ \2 (\1\/\2)
 -'  1  0  ~/Vim/code/macros/incremental.txt
 -'  15  14  ~/test.c
 -'  16  0  ~/test.c
--'  6  0  ~/vim_package.tgz
--'  11  51  ~/Math/Mov_Arr.cpp
--'  12  3  ~/Math/Mov_Arr.cpp
--'  26  15  ~/Math/Mov_Arr.cpp
--'  1  0  ~/Math/Mov_Arr.cpp
--'  1  0  ~/[File List]
--'  4  9  ~/Vim/code/the_vim_way/0_mechanics.txt
--'  2  7  ~/Vim/code/the_vim_way/0_mechanics.txt
--'  3  9  ~/Vim/code/the_vim_way/0_mechanics.txt
--'  5  0  ~/Vim/code/the_vim_way/0_mechanics.txt
--'  1  7  ~/Vim/code/the_vim_way/0_mechanics.txt
--'  1  0  ~/Vim/code/essential.vim
--'  1  0  ~/Vim/code/macros/incremental.txt
--'  15  14  ~/test.c
--'  16  0  ~/test.c
--'  6  0  ~/vim_package.tgz
--'  11  51  ~/Math/Mov_Arr.cpp
--'  12  3  ~/Math/Mov_Arr.cpp
--'  26  15  ~/Math/Mov_Arr.cpp
--'  1  0  ~/Math/Mov_Arr.cpp
+-'  244  11  /usr/include/pthread.h
+-'  419  38  /usr/include/pthread.h
+-'  423  44  /usr/include/pthread.h
+-'  289  0  /usr/include/pthread.h
+-'  288  36  /usr/include/pthread.h
+-'  291  0  /usr/include/pthread.h
+-'  258  0  /usr/include/pthread.h
+-'  1  0  /usr/include/pthread.h
 
 # 文件内的标记历史记录 (从新到旧):
+
+> ~/Open_Source/nginx/.hg_archival.txt
+	"	1	0
+
+> ~/Open_Source/nginx/.hgtags
+	"	289	0
+
+> /usr/include/pthread.h
+	"	244	11
+	.	289	0
+	+	288	38
+	+	291	0
+	+	288	36
+	+	289	0
 
 > ~/Vim/code/the_vim_way/3_concat.js
 	"	9	43
@@ -1352,36 +1369,3 @@ $+ \2 (\1\/\2)
 	+	14	6
 	+	2	0
 	+	6	0
-
-> ~/C++_Primer/string_getline.cpp
-	"	10	9
-	^	10	10
-	.	10	9
-	+	1	19
-	+	6	1
-	+	8	25
-	+	10	9
-
-> ~/const_quote.c
-	"	12	0
-	^	12	0
-	.	12	0
-	+	1	19
-	+	6	1
-	+	17	18
-	+	12	27
-	+	13	1
-	+	18	22
-	+	13	0
-	+	12	1
-	+	14	14
-	+	13	1
-	+	14	1
-	+	15	75
-	+	12	0
-
-> ~/select.c
-	"	3	0
-	^	3	0
-	.	2	0
-	+	2	0
