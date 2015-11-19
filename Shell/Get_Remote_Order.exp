@@ -1,0 +1,16 @@
+#!/usr/bin/expect -f
+
+set mypass 123456
+#set timeout 4 
+#set time
+spawn ssh root@remote_ip
+expect "password:"
+send "$mypass\n"
+expect "*#"
+send "sh /home/time.sh\n"
+set time $expect_out(0,string)
+    log_file xxx.log
+#send "exit\n"
+    expect eof
+#exit
+
