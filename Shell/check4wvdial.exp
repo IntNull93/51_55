@@ -1,0 +1,27 @@
+#!/usr/bin/expect -f
+
+set pswd root
+set user root 
+set host "192.168.51.183"
+
+proc flag {} {
+    send "echo $?"
+        expect "0"{ 
+            return 0
+        }
+    return 1
+}
+
+spawn telnet $host
+expect "login:"
+send "$user\r"
+expect "Password:"
+send "$pswd\r"
+
+#send "ifconfig | grep ppp0\r"
+#set ret [flag]
+#if { $ret==1 } {
+#    puts "\n__ppp0 start succeed!"
+#    exit 1
+#}
+#puts "\n__ppp0 start failed!"
